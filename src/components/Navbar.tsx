@@ -1,11 +1,11 @@
-import { useLanguaje } from '../context/LanguajeContext';
-import { BsPersonFill, BsHouseFill, BsKeyFill, BsMoonFill } from 'react-icons/bs';
+// import { useLanguaje } from '../context/LanguajeContext';
+import { BsPersonFill, BsHouseFill, BsMoonFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import LOGO from '../assets/img.png';
 import { LanguajeChange } from './LanguajeChange';
 
 export const Navbar = () => {
-    const languaje = useLanguaje();
+    //const languaje = useLanguaje();
     
     
     return (
