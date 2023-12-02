@@ -44,11 +44,11 @@ export const Footer = () => {
                         </ul>
                     </p>
                     <div className='p-4 grid grid-cols-2'>
-                        <a href='https//t.me/josesojo18' className=''>
+                        <a href='https://t.me/josesojo18' target='_blank' className=''>
                             <img src={TG} className='w-11 h-11 mx-auto' />
                             <p style={{textShadow:'0 0 5px #0f0f0f98'}} className='text-center font-bold text-white'>Telegram</p>
                         </a>
-                        <a href='https//wa.me/+584128606734' className=''>
+                        <a href='https://wa.me/+584128606734' target='_blank' className=''>
                             <img src={WS} className='w-11 h-11 mx-auto' />
                             <p style={{textShadow:'0 0 5px #0f0f0f98'}} className='text-center font-bold text-white'>Whatsapp</p>
                         </a>
