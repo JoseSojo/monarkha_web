@@ -22,13 +22,12 @@ export const Header = () => {
                     }}
                 >  
                     MONARKHA
-
                 </h2>
                 <p 
                     style={{
                         textShadow: '0 0 5px #e0e0e089'
                     }}
-                    className='font-bold font-mono text-gray-950 text-lg'
+                    className='hidden lg:block font-bold font-mono text-gray-950 text-lg'
                 >
                     Diseño y desarrollo de paginas webs
                 </p>

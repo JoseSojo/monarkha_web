@@ -53,7 +53,7 @@ export const Home = () => {
                             </span>
                         </div>
                     </div>
-                    <div className='p-5 bg-gray-600 rounded-xl flex justify-center items-center gap-x-2'>
+                    <div className='p-5 bg-gray-600 rounded-xl hidden lg:flex justify-center items-center gap-x-2'>
                         <img src={AESTHTIC} className='flex-1 hover:flex-[12] w-[120px] h-[350px] transition-all ease-out' />
                         <img src={MODERN} className='flex-1 hover:flex-[12] w-[120px] h-[350px] transition-all ease-out' />
                         <img src={MINIMAL} className='flex-1 hover:flex-[12] w-[120px] h-[350px] transition-all ease-out' />
