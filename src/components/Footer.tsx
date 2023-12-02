@@ -44,7 +44,7 @@ export const Footer = () => {
                         </ul>
                     </p>
                     <div className='p-4 grid grid-cols-2'>
-                        <a href='t.me/josesojo18' className=''>
+                        <a href='https//t.me/josesojo18' className=''>
                             <img src={TG} className='w-11 h-11 mx-auto' />
                             <p style={{textShadow:'0 0 5px #0f0f0f98'}} className='text-center font-bold text-white'>Telegram</p>
                         </a>
