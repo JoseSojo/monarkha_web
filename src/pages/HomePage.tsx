@@ -14,7 +14,7 @@ export const Home = () => {
         <>
             <div className='mt-5 lg:mt-10 grid gap-y-3'>
                 <Description />
-                <section className='w-[95%] relative mx-auto grid grid-cols-2 p-5 lg:p-14 gap-10'>
+                <section className='w-[95%] relative mx-auto grid grid-cols-1 lg:grid-cols-2 p-5 lg:p-14 gap-10'>
                     <div className='p-10 bg-gray-600 rounded-xl flex justify-center items-center'>
                         <img src={FINEX} className='w-auto' />
                     </div>
@@ -27,7 +27,7 @@ export const Home = () => {
                         mayor visibilidad, credibilidad y oportunidades de crecimiento para una empresa.
                     </div>
                 </section>
-                <section className='w-[95%] relative mx-auto grid grid-cols-2 p-5 lg:p-14 gap-10'>
+                <section className='w-[95%] relative mx-auto grid grid-cols-1 lg:grid-cols-2 p-5 lg:p-14 gap-10'>
                     <div className='flex justify-center items-center'>
                         <div 
                             className='
